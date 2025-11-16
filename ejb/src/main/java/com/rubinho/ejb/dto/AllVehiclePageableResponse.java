@@ -1,4 +1,4 @@
-package com.rubinho.soa_second_service.dto;
+package com.rubinho.ejb.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

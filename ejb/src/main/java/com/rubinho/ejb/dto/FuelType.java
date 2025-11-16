@@ -1,4 +1,4 @@
-package com.rubinho.soa_second_service.dto;
+package com.rubinho.ejb.dto;
 
 public enum FuelType {
     GASOLINE,
