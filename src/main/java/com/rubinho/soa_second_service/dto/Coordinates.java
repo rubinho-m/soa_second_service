@@ -1,4 +1,4 @@
-package com.rubinho.soa_second_service.exceptions;
+package com.rubinho.soa_second_service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ErrorMessage {
-    private String message;
+public class Coordinates {
+    private int x;
+
+    private int y;
 }
