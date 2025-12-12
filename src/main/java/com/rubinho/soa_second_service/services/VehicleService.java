@@ -73,6 +73,7 @@ public class VehicleService {
                     .request(MediaType.APPLICATION_JSON)
                     .get(AllVehiclePageableResponse.class).getVehicles();
         } catch (Exception e) {
+            e.printStackTrace();
             throw new ServiceUnavailableException(e.getMessage());
         } finally {
             client.close();
